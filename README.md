@@ -4,7 +4,7 @@ A streamlined CRUD application built for procurement teams to manage supplier re
 
 🚀 Key Features
 **Dynamic Data Management:** Create, Read, Update, and Delete supplier records directly from a custom web UI.
-**Automatic Formatting:** Built-in JS masking for TIN ($###-###-###-###$) and Philippine Peso currency ($₱$).
+**Automatic Formatting:** Built-in JS masking for TIN ($000-000-000-000$) and Philippine Peso currency ($₱$).
 **Cloud Storage:** Integrated with Google Drive API for business profile attachments.
 **Reporting:** One-click "Print Profile" feature for generating supplier summaries.
 🛠️ Tech Stack
