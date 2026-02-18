@@ -25,7 +25,7 @@ function saveRecord(formData, fileData) {
     let fileUrl = formData.existingFileUrl || "";
     if (fileData && fileData.base64) {
       // Updated with your specific Folder ID
-      const folderId = "1rb8VQUo5WupLaCqVvKkpU_vXaUYbyEch"; 
+      const folderId = "YOUR_GOOGLE_DRIVE_FOLDER_ID"; 
       let folder;
       try { folder = DriveApp.getFolderById(folderId); } catch(e) { folder = DriveApp.getRootFolder(); }
       const blob = Utilities.newBlob(Utilities.base64Decode(fileData.base64), fileData.type, fileData.name);
